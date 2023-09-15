@@ -12,9 +12,7 @@ To run:
 - edit submit_GatherERA5.sh -- to include your project # etc. etc.
 
 ```
-{
-  qsub submit_GatherERA5.sh
-}
+    qsub submit_GatherERA5.sh
 ```
 
 IF you'd rather just use a jupyter notebook on jupyterhub.. see "JupyterExample.ipynb"
