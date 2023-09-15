@@ -1,0 +1,5 @@
+# Exclude Emacs backup files
+*~
+
+# Exclude Jupyter Notebook checkpoints
+.ipynb_checkpoints/
