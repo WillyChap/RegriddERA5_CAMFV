@@ -9,6 +9,14 @@ from dask import delayed
 from dask import delayed, persist
 import dask
 
+#### settings !!! MODIFY THIS BLOCK
+start_date = '1979-01-06'
+end_date = '1979-01-09' #make sure this date is after the start date... 
+interval_hours = 1 #what hour interval would you like to get? [i.e: 1 = 24 files/day, 6 = 4 files/day]
+FPout = '/glade/scratch/wchapman/ERA5_regrid_out/' #where do you want the files stored?
+prefix_out = 'ERA5_e5.oper.ml.v3' #what prefix do you want the files stored with?
+#### settings !!! MODIFY THIS BLOCK
+
 if 'client' in locals():
     client.shutdown()
     print('...shutdown client...')
@@ -24,16 +32,6 @@ cluster.scale(40)
 client = Client(cluster)
 client
 ###dask NCAR client: 
-
-#### settings
-start_date = '1979-01-06'
-end_date = '1979-01-09' #make sure this date is after the start date... 
-interval_hours = 1 #what hour interval would you like to get? 
-batch_size = 2 #it's dangerous to do alot you might run out of memory... this processes X days per batch...
-FPout = '/glade/scratch/wchapman/ERA5_regrid_out/' #where do you want the files stored?
-prefix_out = 'ERA5_e5.oper.ml.v3' #what prefix do you want the files stored with?
-use_multithreading = False  # Set to True for multi-threading or False for multi-processing
-#### settings
 
 #assert that dates wanted > 0
 
