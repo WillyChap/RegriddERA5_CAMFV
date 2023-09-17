@@ -1,0 +1,199 @@
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:255: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:274: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/pbs.py:82: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:255: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:274: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/pbs.py:82: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:255: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:274: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/pbs.py:82: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+client does not exist yet
+29
+in here!!
+doing files: 1979-02-05 1979-02-09
+...starting processing...
+1979-02-05
+loading
+copying variables
+loaded
+1979-02-06
+loading
+copying variables
+loaded
+1979-02-07
+loading
+copying variables
+loaded
+1979-02-08
+loading
+copying variables
+loaded
+1979-02-09
+loading
+copying variables
+loaded
+ phase executed in 383.8786916732788 seconds
+doing files: 1979-02-09 1979-02-13
+...starting processing...
+1979-02-09
+loading
+copying variables
+loaded
+1979-02-10
+loading
+copying variables
+loaded
+1979-02-11
+loading
+copying variables
+loaded
+1979-02-12
+loading
+copying variables
+loaded
+1979-02-13
+loading
+copying variables
+loaded
+ phase executed in 276.9284670352936 seconds
+doing files: 1979-02-13 1979-02-17
+...starting processing...
+1979-02-13
+loading
+copying variables
+loaded
+1979-02-14
+loading
+copying variables
+loaded
+1979-02-15
+loading
+copying variables
+loaded
+1979-02-16
+loading
+copying variables
+loaded
+1979-02-17
+loading
+copying variables
+loaded
+ phase executed in 274.4814887046814 seconds
+doing files: 1979-02-17 1979-02-21
+...starting processing...
+1979-02-17
+loading
+copying variables
+loaded
+1979-02-18
+loading
+copying variables
+loaded
+1979-02-19
+loading
+copying variables
+loaded
+1979-02-20
+loading
+copying variables
+loaded
+1979-02-21
+loading
+copying variables
+loaded
+ phase executed in 288.46659874916077 seconds
+doing files: 1979-02-21 1979-02-25
+...starting processing...
+1979-02-21
+loading
+copying variables
+loaded
+1979-02-22
+loading
+copying variables
+loaded
+1979-02-23
+loading
+copying variables
+loaded
+1979-02-24
+loading
+copying variables
+loaded
+1979-02-25
+loading
+copying variables
+loaded
+ phase executed in 311.4993345737457 seconds
+doing files: 1979-02-25 1979-03-01
+...starting processing...
+1979-02-25
+loading
+copying variables
+loaded
+1979-02-26
+loading
+copying variables
+loaded
+1979-02-27
+loading
+copying variables
+loaded
+1979-02-28
+loading
+copying variables
+loaded
+1979-03-01
+loading
+copying variables
+loaded
+ phase executed in 298.95966958999634 seconds
+doing files: 1979-03-01 1979-03-06
+...starting processing...
+1979-03-01
+loading
+copying variables
+loaded
+1979-03-02
+loading
+copying variables
+loaded
+1979-03-03
+loading
+copying variables
+loaded
+1979-03-04
+loading
+copying variables
+loaded
+1979-03-05
+loading
+copying variables
+loaded
+1979-03-06
+loading
+copying variables
+loaded
+ phase executed in 339.89549255371094 seconds
+...shutdown client...
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:255: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:274: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/pbs.py:82: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:255: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/core.py:274: FutureWarning: env_extra has been renamed to job_script_prologue. You are still using it (even if only set to []; please also check config files). If you did not set job_script_prologue yet, env_extra will be respected for now, but it will be removed in a future release. If you already set job_script_prologue, env_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/glade/u/apps/opt/conda/envs/npl-2023b/lib/python3.10/site-packages/dask_jobqueue/pbs.py:82: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)

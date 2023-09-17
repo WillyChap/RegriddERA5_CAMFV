@@ -1,5 +1,5 @@
 #!/bin/bash -l
-#PBS -N EQdisc_4
+#PBS -N ERA5_stage
 #PBS -A NAML0001
 #PBS -l walltime=12:00:00
 #PBS -o Nudge4.out

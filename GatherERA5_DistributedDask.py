@@ -10,11 +10,12 @@ from dask import delayed, persist
 import dask
 
 #### settings !!! MODIFY THIS BLOCK
-start_date = '1979-01-06'
-end_date = '1979-01-09' #make sure this date is after the start date... 
+start_date = '1979-01-01'
+end_date = '1979-01-07' #make sure this date is after the start date... 
 interval_hours = 1 #what hour interval would you like to get? [i.e: 1 = 24 files/day, 6 = 4 files/day]
 FPout = '/glade/scratch/wchapman/ERA5_regrid_out/' #where do you want the files stored?
 prefix_out = 'ERA5_e5.oper.ml.v3' #what prefix do you want the files stored with?
+project_num = 'P54048000'
 #### settings !!! MODIFY THIS BLOCK
 
 if 'client' in locals():
@@ -27,7 +28,7 @@ else:
 from distributed import Client
 from ncar_jobqueue import NCARCluster
 
-cluster = NCARCluster(project='P54048000',walltime='11:00:00')
+cluster = NCARCluster(project=project_num,walltime='11:00:00')
 cluster.scale(40)
 client = Client(cluster)
 client
